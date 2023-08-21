@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Rediractable.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" id="Register_Data">
+            <p class="info-type">Registration form</p>
+            <input id="fname" type="text" placeholder="Your First Name*" required minlength="2" maxlength="15">
+            <input id="lname" type="text" placeholder="Your Last Name" minlength="2" maxlength="15">
+            <input id="email" type="email" placeholder="Your Email*" required>
+            <input id="password" type="Password" placeholder="Password*" required minlength="8">
+            <br>
+            <input class="submit-btn" type="submit" value="Submit">
+            <p class="footer">Already Have an Account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="Database.js"></script>
+
+</body>
+
+</html>

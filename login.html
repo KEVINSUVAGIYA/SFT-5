@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Rediractable.css">
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" id="login_Data">
+
+            <p class="info-type">Login form</p>
+            <input id="email" type="email" placeholder="Your Email*" required>
+            <input id="password" type="password" placeholder="Password*" required minlength="8">
+            <input class="submit-btn" type="submit" value="Submit">
+            <p class="footer">Don't Have an Account? <a href="register.html">Create New</a></p>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="Database.js"></script>
+</body>
+
+</html>

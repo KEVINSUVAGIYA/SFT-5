@@ -1,0 +1,87 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.main-container{
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+    display: inline-block;
+    width: 500px;
+    background-color: #ffb34fb9;
+    border-radius: 3px;
+    text-align: left;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    border: 0;
+    font-size: 18px;
+    padding: 5px;
+    color: #e4a048;
+    background-color: #814d2b;
+    border-radius: 3px;
+}
+
+.info-type {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.inner-info {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input,
+textarea,
+select,
+option {
+    font-size: 15px;
+    height: 30px;
+    margin: 10px auto;
+    width: 100%;
+    border: 0;
+    background-color: #e4a048;
+}
+
+input::placeholder,
+textarea::placeholder,
+select {
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 80%;
+}
+
+select {
+    opacity: 50%;
+}
+
+textarea {
+    height: 40px;
+}
+
+.submit-btn {
+    height: 50px;
+    background-color: #814d2b;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #814d2b;
+}
